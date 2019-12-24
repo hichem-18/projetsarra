@@ -1,0 +1,31 @@
+body {
+   
+    background-color: rgb(2, 36, 70);
+}
+button{
+    position: absolute;
+  background:none;
+  color:rgb(255, 255, 255);
+  width: "500px";
+  height: "200px";
+  border :1px solid #2a7583;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: 0.6s;
+  overflow: hidden;}
+
+button:hover{
+background: #2a7583;
+cursor: pointer;
+}
+button:hover :before{
+
+    opacity: 1;
+    
+}
+p{
+    
+    font-size: 50px;
+    font-family: fantasy;
+    color: rgb(78, 233, 73);
+}
